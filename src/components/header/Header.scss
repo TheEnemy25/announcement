@@ -1,5 +1,12 @@
+@import '../../styles/Variables.module.scss';
+
 .header {
     width: 100hv;
     height: 80px;
-    background-color: black;
+    background-color: $black-color;
+
+    .announcement {
+        width: 6.5rem;
+        height: 100%;
+    }
 }
